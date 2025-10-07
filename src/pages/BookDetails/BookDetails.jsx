@@ -8,6 +8,7 @@ const BookDetails = () => {
   const data = useLoaderData();
 
   const singleBook = data.find((book) => book.bookId === singleId);
+
   const {
     bookName,
     image,
