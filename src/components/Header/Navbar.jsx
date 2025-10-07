@@ -10,6 +10,9 @@ const Navbar = () => {
       <Link to="/about">
         <li className="m-2 text-lg">about</li>
       </Link>
+      <Link to="/readList">
+        <li className="m-2 text-lg">ReadList</li>
+      </Link>
     </>
   );
   return (
